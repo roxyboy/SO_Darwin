@@ -1,0 +1,9 @@
+# diagnostics for diffusivity tensor
+ &diagnostics_list
+  diag_mnc=.FALSE.,
+  frequency(1) = 31104000.,
+   filename(1) = 'surface_forcing',
+   fields(1,1) = 'oceTAUX  ', 'TFLUX  ',
+ &
+ &DIAG_STATIS_PARMS
+ &
